@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Newsreader', serif;
+}
+
+/* Small */
+@media only screen and (min-width: 640px) {
+  .newsList {
+    column-gap: 4%;
+  }
+
+  .newsItem {
+    flex: 0 0 48%;
+  }
+}
+
+/* Medium */
+@media only screen and (min-width: 768px) {
+  .newsList {
+    column-gap: 2%;
+  }
+
+  .newsItem {
+    flex: 0 0 32%;
+  }
+}
