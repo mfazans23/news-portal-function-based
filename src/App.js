@@ -22,11 +22,11 @@ const App = () => {
 
       if (keyword === undefined || keyword.trim() === '') {
         response = await fetch(
-          'https://gnews.io/api/v4/top-headlines?token=46656601ce34e64abe13bf488460962c&lang=en'
+          'https://gnews.io/api/v4/top-headlines?token=d7038a1f87dea60a8e5a85acee3dda3f&lang=en'
         )
       } else {
         response = await fetch(
-          `https://gnews.io/api/v4/search?q=${keyword}&token=46656601ce34e64abe13bf488460962c&lang=en`
+          `https://gnews.io/api/v4/search?q=${keyword}&token=d7038a1f87dea60a8e5a85acee3dda3f&lang=en`
         )
       }
 
